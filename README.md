@@ -1,4 +1,11 @@
-#Dec_No (VHDL)
+## Languages
+[TR](#-türkçe) | [EN](#-english)
+
+--------------------------------------------------------------------------------------------------------------------
+
+## 🇹🇷 Türkçe
+
+# FPGA Tabanlı Decoder Tasarımı
 
 EEEN 360 **FPGA ile Sayısal Tasarım** dersi kapsamında hazırlanmış bir vize ödevi.
 
@@ -34,4 +41,8 @@ Bu komut `waves/dec_no.vcd` dosyasını yeniden oluşturur.
 Aşağıda testbench sonucunda elde edilen dalga şekli gösterilmektedir:
 
 ![Simülasyon sonucu](Waves/Dec_no_sim.png)
+
+----------------------------------------------------------------------------------------------------------------------
+
+## 🇬🇧 English
 
