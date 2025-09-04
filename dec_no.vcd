@@ -1,0 +1,83 @@
+$date
+	Wed Sep 03 04:35:25 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_odev1 $end
+$var wire 1 ! Cnt [2] $end
+$var wire 1 " Cnt [1] $end
+$var wire 1 # Cnt [0] $end
+$var wire 1 $ No [3] $end
+$var wire 1 % No [2] $end
+$var wire 1 & No [1] $end
+$var wire 1 ' No [0] $end
+
+$scope module Dec1 $end
+$var wire 1 ! Cnt [2] $end
+$var wire 1 " Cnt [1] $end
+$var wire 1 # Cnt [0] $end
+$var wire 1 $ No [3] $end
+$var wire 1 % No [2] $end
+$var wire 1 & No [1] $end
+$var wire 1 ' No [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+1&
+0'
+$end
+#10000
+1#
+0&
+#20000
+0#
+1"
+1&
+#30000
+1#
+0&
+1%
+#40000
+0#
+0"
+1!
+1'
+1&
+#50000
+1#
+0'
+0&
+0%
+#60000
+0#
+1"
+1&
+#70000
+1#
+0&
+#80000
+0#
+0"
+0!
+1&
+$dumpoff
+x!
+x"
+x#
+x$
+x%
+x&
+x'
+$end
