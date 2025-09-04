@@ -1,0 +1,21 @@
+# ModelSim/Questa
+work/
+vsim.wlf
+transcript
+*.wlf
+*.vstf
+modelsim.ini
+
+# Sim outputs
+waves/
+*.vcd
+*.ghw
+*.fst
+*.log
+*.out
+
+# System/Temp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
