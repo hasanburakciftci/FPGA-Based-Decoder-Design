@@ -46,7 +46,7 @@ Aşağıda testbench sonucunda elde edilen dalga şekli gösterilmektedir:
 
 ## 🇬🇧 English
 
-# FPGA-based Decoder Design
+# FPGA-Based Decoder Design
 
 A midterm project prepared for the **EEEN 360 Digital Design with FPGA** course.
 
