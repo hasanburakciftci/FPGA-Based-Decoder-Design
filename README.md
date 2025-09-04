@@ -1,8 +1,15 @@
 # Odev1 — Dec_No (VHDL)
 
-Bu repo Dec_No tasarımını ve tb_Odev1 testbench'ini içerir.
-**waves/dec_no.vcd dosyası zaten mevcut (üretilmiş VCD).**
-İstersen yeniden üretmek için `scripts/run_vcd.do` betiğini kullanabilirsin.
+EEEN 360 **FPGA ile Sayısal Tasarım** dersi kapsamında hazırlanmış bir vize ödevi.
+
+## Projenin Amacı
+Bu proje, öğrenci numarasındaki belirli haneye göre tanımlanan doğruluk tablosunu temel alarak
+**3-bit girişli (Cnt) → 4-bit çıkışlı (No)** bir decoder devresinin VHDL ile tasarımını içerir.
+
+- **Giriş:** `Cnt` (3-bit)
+- **Çıkış:** `No` (4-bit)
+- **Testbench:** `Cnt` sinyalini 10 ns aralıklarla artırır ve 80 ns sürede tüm kombinasyonları dener.
+- **Doğrulama:** Simülasyon sonucu VCD dosyası (`dec_no.vcd`) ve dalga şekilleri (`Dec_no_sim.png`) ile kontrol edilir.
 
 ## Çalıştırma (opsiyonel yeniden üretim)
 ```tcl
@@ -18,5 +25,6 @@ Bu komut `waves/dec_no.vcd` dosyasını yeniden oluşturur.
 - `docs/`: İlgili doküman(lar)
 
 ## Notlar
+- VCD dosyası zaten repoda mevcut. Yeniden üretmek istersen `run_vcd.do` kullanılabilir.
 - VCD dosyası büyümesin istersen `run_vcd.do` içinde `vcd add` kapsamını sadece gerekli sinyallere daralt.
 - Testbench 0..7 sayımı için 80 ns'lik bir pencere kullanır; betikte 100 ns koşturuyoruz.
