@@ -1,4 +1,4 @@
-# Odev1 — Dec_No (VHDL)
+#Dec_No (VHDL)
 
 EEEN 360 **FPGA ile Sayısal Tasarım** dersi kapsamında hazırlanmış bir vize ödevi.
 
