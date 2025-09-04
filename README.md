@@ -28,3 +28,10 @@ Bu komut `waves/dec_no.vcd` dosyasını yeniden oluşturur.
 - VCD dosyası zaten repoda mevcut. Yeniden üretmek istersen `run_vcd.do` kullanılabilir.
 - VCD dosyası büyümesin istersen `run_vcd.do` içinde `vcd add` kapsamını sadece gerekli sinyallere daralt.
 - Testbench 0..7 sayımı için 80 ns'lik bir pencere kullanır; betikte 100 ns koşturuyoruz.
+
+- ## Simülasyon
+
+Aşağıda testbench sonucunda elde edilen dalga şekli gösterilmektedir:
+
+![Simülasyon sonucu](Waves/Dec_no_sim.png)
+
