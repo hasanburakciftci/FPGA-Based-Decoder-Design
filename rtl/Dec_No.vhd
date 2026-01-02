@@ -4,8 +4,8 @@ use ieee.numeric_std.all;
 
 entity Dec_No is
 port(
-	Cnt : in Unsigned(2 downto 0);
-	No  : out Unsigned(3 downto 0));
+	Cnt : in  std_logic_vector(2 downto 0);
+	No  : out std_logic_vector(3 downto 0));
 
 end entity;
 
